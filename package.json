@@ -1,0 +1,37 @@
+{
+  "name": "ts-test",
+  "version": "1.0.0",
+  "description": "TypeScript based unit testing /w mocha & chai",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "ts-node": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamKatona/ts-test.git"
+  },
+  "keywords": [
+    "typescript",
+    "mocha",
+    "chai",
+    "unit",
+    "test"
+  ],
+  "author": "Adam Katona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdamKatona/ts-test/issues"
+  },
+  "homepage": "https://github.com/AdamKatona/ts-test#readme"
+}
