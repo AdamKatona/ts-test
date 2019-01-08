@@ -12,10 +12,11 @@
     "@types/mocha": "^5.2.5",
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
-    "ts-node": "^7.0.1"
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "tsc | mocha -r ts-node/register *.spec.ts"
   },
   "repository": {
     "type": "git",
